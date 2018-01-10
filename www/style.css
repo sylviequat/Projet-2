@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+
+}
+
+
+.titre {
+  text-align: center;
+}
