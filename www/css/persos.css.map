@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,qBAAqB;EACvC,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;EACZ,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,KAAK;CACZ",
+    "sources": [
+        "persos.scss"
+    ],
+    "names": [],
+    "file": "persos.css"
+}

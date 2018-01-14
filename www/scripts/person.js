@@ -9,8 +9,15 @@ class Person {
       this.popularite = 10;  
   }
 
-  negocier() {
-    alert('blablabla');
+  negocier(cible) {
+    this.popularite ++
+    cible.popularite --
+    // afficher resultat au compteur player
+    // let type=
+    // let content= this.popularite;
+    // let target= 
+    // display(type,content,target);
+   
   }
   attaquer() {
     alert('a l attaque');
