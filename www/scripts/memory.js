@@ -1,11 +1,4 @@
-class Case {
-  constructor(ncase, etat, valimg) {
-    this.ncase = ncase;
-    this.etat = etat;
-    this.valimg = valimg;
-  }
 
-}
 
 let tableau = 
 [new Case("1", "1", "C"),
@@ -26,7 +19,7 @@ new Case("15", "1", "G"),
 new Case("16", "1", "E")];
 
 
-function affich() {
+function affichTab() {
   for (let item of tableau) {
     let section = document.querySelector(".container");
     let p = document.createElement("div");
@@ -35,19 +28,42 @@ function affich() {
     section.appendChild(p);
   }
 }
-affich();
+affichTab();
+
+
 
 let compa=('0','0');
 let compteur=0;
 let indic= true;
 
-addEventListener("click", clic(tableau.ncase));
 
-function clic (ncase) {
-
-  if (indic=true) {
-    console.log(tableau.ncase);
-  } 
-
+// boucle sur le tableau
+for (i=0; i<tableau.length; i++) {
+let ncase
 }
 
+
+
+// Adding event handler code to an onclick event
+// document.getElementById(this.ncase).onclick = function(){code}	
+
+
+// element.addEventListener("click", function(){ myFunction(p1, p2); });
+
+
+//onclick = function() { alert("clic"); };
+
+
+// function majAffichage(noCase){
+// 	switch(case[etat]){
+// 		case 0:
+// 			imgCase[ncase].src="fondcarte.png";
+// 			break;
+// 		case 1:
+// 			imgCase[ncase].src="case"+imgCase[ncase]+".png";
+// 			break;
+// 		case 2:
+// 			imgCase[ncase].style.visibility="hidden";
+// 			break;
+// 	}
+// }
