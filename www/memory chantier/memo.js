@@ -28,8 +28,19 @@ function majAffichage(noCarte){
 }
 
 function rejouer(){
-alert("Bravo c'est gagné !");
-location.reload();
+// alert("Bravo c'est gagné !");
+let p=document.querySelector("footer");
+let h1=document.createElement("h1");
+h1.textContent="Bravo ! vous avez gagné !";
+p.appendChild(h1);
+let button=document.createElement("button");
+button.textContent="rejouer";
+p.appendChild(button);
+button.onclick = function(){
+    location.reload(); 
+}
+
+
 }
 
 function initialiseJeu(){
