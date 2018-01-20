@@ -77,6 +77,6 @@ cartesRetournees=[];
 if(nbPairesTrouvees==10){
 rejouer();
 }
-},750);
+},650);
 }
 }
