@@ -1,34 +1,27 @@
+body {
+  background-color: #eeeaea;
+}
+
 .h1 {
   text-align: center;
-}
-
-.container {
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.case {
-  display: flex;
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 100px;
-  height: 100px;
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 150%;
-  margin-bottom: 10px;
-}
-
-.case:hover {
-  background-color: green;
 }
 
 .header,
 .footer {
   text-align: center;
+}
+
+#tapis {
+  border-style: ridge;
+  border-width: 5px;
+  display: flex;
+  margin: auto;
+  width: 520px;
+  height: 420px;
+  align-content: center;
+}
+
+#tapis tr td :active {
+  transform: rotateX(180deg);
 }
 /*# sourceMappingURL=memory.css.map */
