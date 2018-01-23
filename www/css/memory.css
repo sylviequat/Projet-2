@@ -1,5 +1,5 @@
 body {
-  background-color: #f1e4e4;
+  background-color: #ece9e9;
 }
 
 .h1 {
@@ -12,10 +12,10 @@ body {
 }
 
 #tapis {
-  border-style: ridge;
+  border-style: double;
   border-width: 12px;
   border-radius: 20px;
-  padding: 1px;
+  border-color: grey;
   background-color: whitesmoke;
   display: flex;
   flex-wrap: wrap;
@@ -23,5 +23,9 @@ body {
   width: 529px;
   height: 429px;
   align-content: center;
+}
+
+#image {
+  border-radius: 15px;
 }
 /*# sourceMappingURL=memory.css.map */
