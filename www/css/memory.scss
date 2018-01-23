@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(238, 234, 234);
+  background-color: rgb(241, 228, 228);
 }
 
 .h1 {
@@ -14,15 +14,14 @@ text-align:center;
 
 #tapis {
   border-style: ridge;
-  border-width: 5px;
+  border-width: 12px;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: whitesmoke;
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
-  width: 520px;
-  height: 420px ;
+  width: 529px;
+  height: 429px ;
   align-content: center;
   }
-
-#tapis tr td :active {
-
-  transform: rotateX(180deg);
-}

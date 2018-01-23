@@ -2,6 +2,14 @@ let motifsCartes = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10
 let etatsCartes = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let cartesRetournees = [];
 let nbPairesTrouvees = 0;
+
+for (let i=0;i<20;i++) {
+    let imgfond=document.createElement("img");
+    imgfond.setAttribute("src","fondcarte.png");
+    imgfond.setAttribute("id","image");
+    document.getElementById("tapis").appendChild(imgfond);
+   } 
+
 let imgCartes = document.getElementById("tapis").getElementsByTagName("img");
 
 for (let i = 0; i < imgCartes.length; i++) {
