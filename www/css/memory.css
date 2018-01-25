@@ -9,6 +9,7 @@ body {
 .header,
 .footer {
   text-align: center;
+  padding: 2px;
 }
 
 #tapis {
@@ -26,6 +27,6 @@ body {
 }
 
 #image {
-  border-radius: 15px;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=memory.css.map */

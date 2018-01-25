@@ -3,6 +3,11 @@ let etatsCartes = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let cartesRetournees = [];
 let nbPairesTrouvees = 0;
 
+function selectNiveau(txt) {
+    let niveau=(txt);
+    console.log(niveau)
+    }
+
 for (let i=0;i<20;i++) {
     let imgfond=document.createElement("img");
     imgfond.setAttribute("src","fondcarte.png");
@@ -39,7 +44,7 @@ function rejouer() {
 
     let p = document.querySelector("footer");
     let h1 = document.createElement("h1");
-    h1.textContent = "Bravo ! vous avez gagné !";
+    h1.textContent = "Bravo ! C'est gagné !";
     p.appendChild(h1);
     let button = document.createElement("button");
     button.textContent = "rejouer";

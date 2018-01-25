@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/memory.css">
-    <title>Memory</title>
+
 </head>
+
+
 <body>
         <header class="header">
                 <h1>Jeu Memory</h1>
+                <select name="id" id="id" onchange="selectNiveau(this.options[this.selectedIndex].value);">
+                        <option selected="selected" value="facile">choisissez un niveau</option>
+                        <option value="facile">facile</option>
+                        <option value="moyen">moyen</option>
+                        <option value="difficile">difficile</option>                        
+                </select>
         </header>
 
         <section id="tapis">
-            
         </section>
 
         <footer class="footer">
