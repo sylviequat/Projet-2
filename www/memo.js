@@ -2,10 +2,11 @@ let motifsCartes = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10
 let etatsCartes = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let cartesRetournees = [];
 let nbPairesTrouvees = 0;
+let niveau="facile";
 
 function selectNiveau(txt) {
-    let niveau=(txt);
-    console.log(niveau)
+    niveau=(txt);
+    return niveau;
     }
 
 for (let i=0;i<20;i++) {
@@ -32,7 +33,7 @@ function majAffichage(noCarte) {
             imgCartes[noCarte].src = "fondcarte.png";
             break;
         case 1:
-            imgCartes[noCarte].src = "carte" + motifsCartes[noCarte] + ".png";
+            imgCartes[noCarte].src =niveau + "/carte" + motifsCartes[noCarte] + ".png";
             break;
         case -1:
             imgCartes[noCarte].style.visibility = "hidden";
